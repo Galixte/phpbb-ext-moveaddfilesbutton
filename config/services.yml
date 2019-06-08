@@ -1,0 +1,7 @@
+services:
+    galixte.moveattachmentstab.listener:
+        class: galixte\moveattachmentstab\event\main_listener
+        arguments:
+            - '@user'
+        tags:
+            - { name: event.listener }

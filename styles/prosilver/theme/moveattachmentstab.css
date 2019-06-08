@@ -1,0 +1,97 @@
+div#attach-panel-multi {
+    display: none !important;
+}
+
+.activetab#attach-panel-tab > a,
+.activetab#attach-panel-tab > a:hover {
+   background-color: #ff6e48; /* Old browsers */ /* FF3.6+ */
+   background-image: -webkit-linear-gradient(top, #ffbdac 0%, #ff6e48 100%);
+   background-image: linear-gradient(to bottom, #ffbdac 0%,#ff6e48 100%); /* W3C */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffbdac', endColorstr='#ff6e48',GradientType=0 ); /* IE6-9 */
+   border-color: #ff6e48;
+   box-shadow: 0 1px 1px #F2F9FF inset;
+   color: #3c0000;
+}
+
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+input {
+    font-weight: normal;
+    vertical-align: middle;
+    padding: 0 3px;
+    font-size: 1em;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+
+input.button0 {
+    font-size: 1em;
+}
+
+a.button0, input.button0 {
+    width: auto !important;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-family: "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;
+    background: transparent none repeat-x top left;
+    line-height: 1.5;
+}
+
+input[type="button"], input[type="submit"], input[type="reset"], input[type="checkbox"], input[type="radio"] {
+    cursor: pointer;
+}
+
+a.button0, input.button0 {
+	font-weight: bold;
+    border: 1px solid transparent;
+}
+
+a.button0, input.button0 {
+    color: #000;
+    background-color: #EFEFEF;
+    background-image: -webkit-linear-gradient(top, #D2D2D2 0%, #EFEFEF 100%);
+    background-image: linear-gradient(to bottom, #D2D2D2 0%,#EFEFEF 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D2D2D2', endColorstr='#EFEFEF',GradientType=0 );
+}
+
+a.button0:hover, input.button0:hover {
+    color: #000;
+    background-color: #ff6e48;
+    background-image: -webkit-linear-gradient(top, #ffbdac 0%, #ff6e48 100%);
+    background-image: linear-gradient(to bottom, #ffbdac 0%, #ff6e48 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffbdac', endColorstr='#ff6e48',GradientType=0 );
+}
+
+a.button0, input.button0 {
+    border-color: #666666;
+}
+
+a.button0, input.button0:hover {
+    border-color: #ff6e48;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+fieldset.submit-buttons input {
+    vertical-align: middle;
+}
+
+input.button0:focus {
+    outline-style: none;
+}
+
+input.button0:focus {
+    border-color: #11A3EA;
+    color: #000;
+}
+
+input.button0:focus:hover {
+    border-color: #ff6e48;
+    color: #000;
+}
