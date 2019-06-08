@@ -1,13 +1,13 @@
 <?php
 /*
 *
-* @package Move Attachments tab
+* @package Move Add files button
 * @copyright (c) Galixte (galixte.com)
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * 
 */
 
-namespace galixte\moveattachmentstab\event;
+namespace galixte\moveaddfilesbutton\event;
 
 use phpbb\user;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
@@ -41,11 +41,11 @@ class main_listener implements EventSubscriberInterface
 	}
 
 	/**
-	 * Setup Move Attachments tab
+	 * Setup Move Add files button
 	 *
 	 */
 	public function setup($event)
 	{
-		$this->user->add_lang_ext('galixte/moveattachmentstab', 'moveattachmentstab');
+		$this->user->add_lang_ext('galixte/moveaddfilesbutton', 'moveaddfilesbutton');
 	} 
 }

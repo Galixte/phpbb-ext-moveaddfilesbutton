@@ -1,13 +1,13 @@
 {
-    "name": "galixte/moveattachmentstab",
+    "name": "galixte/moveaddfilesbutton",
     "type": "phpbb-extension",
-    "description": "This extension move the “Attachments” tab close (on the left) to the “Save draft”, “Preview” and “Submit” buttons on the posting page.",
+    "description": "This extension moves the “Add files” button close (on the left) to the “Save draft”, “Preview” and “Submit” buttons on the posting page.",
     "homepage": "http://www.ezcom-fr.com",
     "version": "1.0.0",
     "keywords": [
         "phpbb",
         "extension",
-        "Move Attachments tab"
+        "Move Add files button"
     ],
     "license": "GPL-2.0-only",
     "authors": [
@@ -22,7 +22,7 @@
         "composer/installers": "~1.0"
     },
     "extra": {
-        "display-name": "Move Attachments tab",
+        "display-name": "Move Add files button",
         "soft-require": {
             "phpbb/phpbb": ">=3.1.0,<3.3"
         }
